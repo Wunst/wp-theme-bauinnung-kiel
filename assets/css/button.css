@@ -1,0 +1,8 @@
+.wp-element-button {
+  transition: all 0.2s ease-in-out;
+}
+
+.wp-element-button:hover {
+  transform: scale(1.05);
+}
+
