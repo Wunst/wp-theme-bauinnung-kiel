@@ -7,5 +7,10 @@ function bikiel_enqueue_styles() {
     "button", 
     get_parent_theme_file_uri("assets/css/button.css")
   );
+
+  wp_enqueue_style(
+    "site-title",
+    get_parent_theme_file_uri("assets/css/site-title.css")
+  );
 }
 
