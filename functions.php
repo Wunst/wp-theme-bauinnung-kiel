@@ -12,5 +12,10 @@ function bikiel_enqueue_styles() {
     "site-title",
     get_parent_theme_file_uri("assets/css/site-title.css")
   );
+
+  wp_enqueue_style(
+    "mobile-only",
+    get_parent_theme_file_uri("assets/css/mobile-only.css")
+  );
 }
 

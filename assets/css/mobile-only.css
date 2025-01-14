@@ -1,0 +1,14 @@
+.bki-desktop-only {
+  display: none;
+}
+
+@media screen only and (min-width: 767px) {
+  .bki-mobile-only {
+    display: none;
+  }
+
+  .bki-desktop-only {
+    display: block;
+  }
+}
+
