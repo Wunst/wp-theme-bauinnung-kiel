@@ -2,7 +2,7 @@
   display: none;
 }
 
-@media screen only and (min-width: 767px) {
+@media only screen and (min-width: 767px) {
   .bki-mobile-only {
     display: none;
   }
