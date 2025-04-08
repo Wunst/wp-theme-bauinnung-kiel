@@ -17,5 +17,15 @@ function bikiel_enqueue_styles() {
     "mobile-only",
     get_parent_theme_file_uri("assets/css/mobile-only.css")
   );
+
+  wp_enqueue_style(
+    "details",
+    get_parent_theme_file_uri("assets/css/details.css")
+  );
+
+  wp_enqueue_style(
+    "header-footer",
+    get_parent_theme_file_uri("assets/css/header-footer.css")
+  );
 }
 

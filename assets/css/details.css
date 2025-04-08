@@ -1,0 +1,21 @@
+summary {
+  display: flex;
+
+  font-weight: 700;
+
+  background-color: var(--wp--preset--color--accent);
+  color: var(--wp--preset--color--base);
+
+  padding: .5em;
+
+  justify-content: space-between;
+}
+
+summary::after {
+  content: "►";
+}
+
+details[open] > summary::after {
+  transform: rotate(90deg);
+}
+
